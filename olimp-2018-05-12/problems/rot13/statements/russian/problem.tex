@@ -1,0 +1,64 @@
+\begin{problem}{Шифр}{стандартный ввод}{стандартный вывод}{1 секунда}{256 мегабайт}
+
+Докажите, что вы умеете отлаживать. Ниже представлена программа, которая зашифровывает строку из строчных латинских букв. Вам предлагается написать программу, которая расшифровывает получившуюся последовательность.
+
+
+\bigskip
+
+\noindent\begin{tabular}{|p{0.4\textwidth}|p{0.3\textwidth}|p{0.3\textwidth}|}
+\hline
+\textbf{Pascal} & \textbf{C} & \textbf{Python 3} \\
+\hline
+\begin{lstlisting}
+program cypher;
+var s:string;
+i:integer;
+begin
+readln(s);
+for i:=1 to length(s) do
+write(chr(97+(ord(s[i])-84)mod 26));
+end.
+\end{lstlisting}&
+
+\begin{lstlisting}
+#include <stdio.h>
+#include <string.h>
+int main() {
+char c[256];
+scanf("%s", &c);
+for (char *i=c;*i;++i)
+*i=97+(*i-84)%26;
+puts(c);
+return 0;
+}
+\end{lstlisting}&
+
+\begin{lstlisting}
+import codecs as c
+a = input()
+b = c.encode(a, 'rot_13')
+print(b)
+\end{lstlisting} \\
+\hline
+\end{tabular}
+
+
+\InputFile
+На вход вашей программе подаётся строка, состоящая из строчных латинских букв, её длина не превосходит 100.
+
+\OutputFile
+Выведите такую строку из строчных латинских букв, что при шифровании её приведённой выше программой, получается строка, заданная во входных данных.
+
+\Examples
+
+\begin{example}
+\exmp{uryyb
+}{hello
+}%
+\exmp{ebthryvxr
+}{roguelike
+}%
+\end{example}
+
+\end{problem}
+

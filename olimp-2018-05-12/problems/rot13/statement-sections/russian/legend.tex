@@ -1,0 +1,41 @@
+Докажите, что вы умеете отлаживать. Ниже представлена программа, которая зашифровывает строку из строчных латинских букв. Вам предлагается написать программу, которая расшифровывает получившуюся последовательность.
+
+
+\bigskip
+
+\noindent\begin{tabular}{|p{0.4\textwidth}|p{0.3\textwidth}|p{0.3\textwidth}|}
+\hline
+\textbf{Pascal} & \textbf{C} & \textbf{Python 3} \\
+\hline
+\begin{lstlisting}
+program cypher;
+var s:string;
+i:integer;
+begin
+readln(s);
+for i:=1 to length(s) do
+write(chr(97+(ord(s[i])-84)mod 26));
+end.
+\end{lstlisting}&
+
+\begin{lstlisting}
+#include <stdio.h>
+#include <string.h>
+int main() {
+char c[256];
+scanf("%s", &c);
+for (char *i=c;*i;++i)
+*i=97+(*i-84)%26;
+puts(c);
+return 0;
+}
+\end{lstlisting}&
+
+\begin{lstlisting}
+import codecs as c
+a = input()
+b = c.encode(a, 'rot_13')
+print(b)
+\end{lstlisting} \\
+\hline
+\end{tabular}

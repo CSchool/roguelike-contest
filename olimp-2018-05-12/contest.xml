@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<contest url="https://polygon.codeforces.com/c/8309">
+    <names>
+        <name language="russian" value="Командная олимпиада по системному программированию"/>
+    </names>
+    <problems>
+        <problem index="a" url="https://polygon.codeforces.com/p5ipW4V/TsarN/abs-difference"/>
+        <problem index="b" url="https://polygon.codeforces.com/p629CqZ/TsarN/aplusb-wa"/>
+        <problem index="c" url="https://polygon.codeforces.com/p7Y2FyD/TsarN/next-square"/>
+        <problem index="d" url="https://polygon.codeforces.com/p2eWk11/TsarN/overflow"/>
+        <problem index="e" url="https://polygon.codeforces.com/p8rpaym/TsarN/rot13"/>
+        <problem index="f" url="https://polygon.codeforces.com/p510ALh/Alchemist/evenodd"/>
+        <problem index="g" url="https://polygon.codeforces.com/p1j1UDy/Alchemist/chicken"/>
+        <problem index="h" url="https://polygon.codeforces.com/p28YBoP/TsarN/universal"/>
+        <problem index="i" url="https://polygon.codeforces.com/p0a8Jw5/Alchemist/ones"/>
+        <problem index="j" url="https://polygon.codeforces.com/p7cOAyM/TsarN/palindromes"/>
+    </problems>
+</contest>
