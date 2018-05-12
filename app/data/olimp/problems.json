@@ -1,0 +1,123 @@
+{
+  "0": {
+    "type": "team_name",
+    "name": "Выбирай мудро",
+    "statement": "Чтобы открыть эту дверь, вам необходимо ответить на очень сложный вопрос: как будет называться ваша команда?",
+    "reward": 0
+  },
+  "1": {
+    "type": "standard",
+    "name": "Расстояние",
+    "id": 1,
+    "short_name": "A",
+    "internal_name": "abs-difference",
+    "reward": 100
+  },
+  "2": {
+    "type": "standard",
+    "name": "Шифр",
+    "id": 5,
+    "short_name": "E",
+    "internal_name": "rot13",
+    "reward": 250
+  },
+  "3": {
+    "type": "guess",
+    "name": "Угадай число от 1 до 1000000",
+    "statement": "",
+    "answer": "275834",
+    "reward": 500
+  },
+  "4": {
+    "type": "answer",
+    "name": "Тайное послание",
+    "internal_name": "love-letter",
+    "answer": "7771",
+    "reward": 250
+  },
+  "5": {
+    "type": "standard",
+    "name": "От 1 до N",
+    "id": 4,
+    "short_name": "D",
+    "internal_name": "overflow",
+    "reward": 500
+  },
+  "6": {
+    "type": "standard",
+    "name": "Функциональная полнота",
+    "id": 8,
+    "short_name": "H",
+    "internal_name": "universal",
+    "reward": 1000
+  },
+  "7": {
+    "type": "answer",
+    "answer": "compiler",
+    "name": "Введите пароль...",
+    "statement_url": "/static/crackme.cpp",
+    "reward": 1000
+  },
+  "8": {
+    "type": "standard",
+    "name": "A + B",
+    "id": 2,
+    "short_name": "B",
+    "internal_name": "aplusb-wa",
+    "reward": 3000
+  },
+  "9": {
+    "type": "answer",
+    "answer": "SolveMePleaSe",
+    "name": "Введите пароль... ещё раз!",
+    "statement_url": "/static/crackme-hard.py",
+    "reward": 5000
+  },
+  "10": {
+    "type": "standard",
+    "name": "Палиндромы",
+    "id": 10,
+    "short_name": "J",
+    "internal_name": "palindromes",
+    "reward": 2000
+  },
+  "11": {
+    "type": "standard",
+    "name": "Richmond and Montenegro",
+    "id": 3,
+    "short_name": "С",
+    "internal_name": "next-square",
+    "reward": 4000
+  },
+  "12": {
+    "type": "standard",
+    "name": "Угадай закономерность",
+    "id": 9,
+    "short_name": "I",
+    "internal_name": "pattern",
+    "reward": 2000
+  },
+  "13": {
+    "type": "standard",
+    "name": "Чётное или нечётное",
+    "id": 6,
+    "short_name": "F",
+    "internal_name": "evenodd",
+    "reward": 3000
+  },
+  "14": {
+    "type": "answer",
+    "name": "Треугольник",
+    "answer": "1074",
+    "statement_url": "/static/triangle.html",
+    "reward": 3000
+  },
+  "15": {
+    "type": "standard",
+    "name": "Chicken",
+    "id": 7,
+    "short_name": "G",
+    "internal_name": "chicken",
+    "reward": 5000
+  }
+}

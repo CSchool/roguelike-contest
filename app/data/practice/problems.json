@@ -1,0 +1,33 @@
+{
+  "0": {
+    "type": "standard",
+    "name": "A + B",
+    "short_name": "X",
+    "internal_name": "aplusb",
+    "id": 1,
+    "reward": 100
+  },
+  "1": {
+    "type": "standard",
+    "name": "Элемент",
+    "short_name": "Y",
+    "internal_name": "min-negative",
+    "id": 2,
+    "reward": 100
+  },
+  "2": {
+    "type": "answer",
+    "name": "Очевидно",
+    "statement": "Сколько полных лет длилась Семилетняя война?",
+    "answer": "7",
+    "reward": 100
+  },
+  "3": {
+    "type": "standard",
+    "name": "Исключающее ИЛИ",
+    "short_name": "Z",
+    "internal_name": "many-xor",
+    "id": 3,
+    "reward": 300
+  }
+}
